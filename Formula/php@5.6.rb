@@ -1,14 +1,8 @@
 class PhpAT56 < Formula
   desc "General-purpose scripting language"
   homepage "https://secure.php.net/"
-  url "https://php.net/get/php-5.6.39.tar.xz/from/this/mirror"
-  sha256 "8147576001a832ff3d03cb2980caa2d6b584a10624f87ac459fcd3948c6e4a10"
-
-  bottle do
-    sha256 "0f616518cdc1b20b0356ca22e7dd77a69da5c4f6354932868bd8ed3196f04872" => :mojave
-    sha256 "1d19ae0c315760f6d1cb97bc6437eaa6b1413f0cd022b93810c65eb62b4a56bb" => :high_sierra
-    sha256 "30a6ca5cdfd8ec6ad6e5c1f6f251248da3fff6f75d8916b1811ec5b3f8d17b0f" => :sierra
-  end
+  url "https://php.net/get/php-5.6.40.tar.xz/from/this/mirror"
+  sha256 "1369a51eee3995d7fbd1c5342e5cc917760e276d561595b6052b21ace2656d1c"
 
   keg_only :versioned_formula
 
